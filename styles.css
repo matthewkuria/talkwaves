@@ -307,7 +307,7 @@ nav {
 /* hero */
 header {
   min-height: 100vh;
-  background: linear-gradient(rgba(63, 208, 212, 0.2), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(63, 208, 212, 0.1), rgba(0, 0, 0, 0.7)),
     url(./podcast-mic.jpg) center/cover no-repeat;
 }
 .banner {
@@ -341,7 +341,7 @@ header {
 }
 #about,
 #services,
-#tours {
+#podcasts {
   height: 80vh;
 }
 #services {
