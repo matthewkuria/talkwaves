@@ -242,7 +242,7 @@ nav {
   color: var(--clr-secondary);
 }
 .logo {
-  height: 50px;
+  height: 30px;
 }
 .links-container {
   height: 0;
@@ -302,10 +302,7 @@ nav {
     font-weight: bold;
     padding: 0;
   }
-  .links a:hover {
-    color: #40CFDA !important;
-	text-decoration: underline;
-  }
+  
 }
 /* hero */
 header {
