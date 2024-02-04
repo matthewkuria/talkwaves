@@ -308,7 +308,7 @@ nav {
 header {
   min-height: 100vh;
   background: linear-gradient(rgba(63, 208, 212, 0.1), rgba(0, 0, 0, 0.7)),
-    url(./podcast-mic.jpg) center/cover no-repeat;
+    url(./depression-backimage.jpeg) center/cover no-repeat;
 }
 .banner {
   min-height: 100vh;
@@ -342,7 +342,9 @@ header {
 #about,
 #services,
 #podcasts {
-  height: 80vh;
+  min-height: 80vh;
+  padding: 30px;
+
 }
 #services {
   background: var(--clr-white);

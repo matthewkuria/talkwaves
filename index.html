@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Talk Waves</title>
+    <title>Anti Depressants</title>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -38,11 +38,11 @@
               <li>
                 <a href="#podcasts" class="scroll-link">Podcasts</a>
               </li>
-				<li>
-                <a href="#blog" class="scroll-link">blog</a>
+				      <li>
+                <a href="./blog.html" >blog</a>
               </li>
               <li>
-                <a href="#tours" class="scroll-link">Subscribe</a>
+                <a href="#book-session" class="scroll-link">Book a Session</a>
               </li>
             </ul>
           </div>
@@ -51,7 +51,7 @@
       <!-- banner -->
       <div class="banner">
         <div class="container">
-          <h1>Talk Waves</h1>
+          <h1>Anti-Depressant</h1>
           <p>
             Welcome to Talk Waves Podcasts!
 			  Are you suffering psychologically?
@@ -65,19 +65,48 @@
     <!-- about -->
     <section id="about" class="section">
       <div class="title">
-        <h2>about <span>us</span></h2>
+        <h2>What is  <span>depression?</span></h2>
+        <p>Depression (major depressive disorder) is a common and serious medical illness that negatively affects how you feel, the way you think and how you act. Fortunately, it is also treatable. Depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed. It can lead to a variety of emotional and physical problems and can decrease your ability to function at work and at home.</p>
+        <p>Depression is a significant contributor to the global burden of disease and the leading cause of
+           disability worldwide.Depression is a major problem in Kenya, with an estimated 1.9 million cases
+            reported.The number ranks 5th among the  African countries with the highest number of depression 
+            patients, after South Africa,Democratic republic of Congo,Ethiopia and Nigeria.However, the actual
+             number of of patients with depression in Kenya is likely to be much higher, as many patients may go
+              undiagnosed and therefore untreated.
+          </p>
+          <p>Depression symptoms can vary from mild to severe and can include:</p>
+          <ol>
+            <li>Feeling sad or having a depressed mood</li>
+              <li>Loss of interest or pleasure in activities once enjoyed</li>
+             <li> Changes in appetite — weight loss or gain unrelated to dieting</li>
+              <li>Trouble sleeping or sleeping too much</li>
+              <li>Loss of energy or increased fatigue</li>
+              <li>Increase in purposeless physical activity (e.g., inability to sit still, pacing, handwringing) or slowed movements or speech (these actions must be severe enough to be observable by others)</li>
+              <li>Feeling worthless or guilty</li>
+              <li>Difficulty thinking, concentrating or making decisions</li>
+              <li>Thoughts of death or suicide</li>
+          </ol>
       </div>
     </section>
     <!-- services -->
-    <section id="services" class="section">
+    <section id="book-session" class="section">
       <div class="title">
-        <h2>our <span>services</span></h2>
+        <h2>Book a <span>session</span></h2>
+        <form action="">
+          <label for="firstName">Your Name</label>
+          <input type="text" placeholder="Enter your Name" value=""><br>
+          <label for="date">Date</label>
+          <input type="datetime" name="" id=""><br>
+          <input type="submit" value="Submit" onclick="handleClick()">
+        </form>
       </div>
     </section>
     <!-- contact -->
     <section id="podcasts" class="section">
       <div class="title">
         <h2>featured <span>Podcasts</span></h2>
+        <a href="https://open.spotify.com/show/0KJM293ZIbiO6KZIM0eBPd">Spotify Podcast</a>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IDPDEKtd2yM?si=pkV_vdKsdeEhkZkg/embed/tgbNymZ7vqY?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </section>
     <!-- footer -->
@@ -91,6 +120,11 @@
       <i class="fas fa-arrow-up"></i>
     </a>
     <!-- javascript -->
+    <script>
+      function handleClick(e){
+        console.log(e.event.target)
+      }
+    </script>
     <script src="app.js"></script>
   </body>
 </html>
